@@ -2,17 +2,16 @@ version: '3'
 
 services:
   frontend:
-    image: my-react-app
     build:
-      context: ./client # Path to your React app directory
+      context: ./client
     ports:
-      - "4000:3000"
+      - "4000:80"
     depends_on:
       - backend
 
   backend:
     build:
-      context: ./server # Path to your Node.js app directory
+      context: ./server
     ports:
       - "5000:5000"
     environment:

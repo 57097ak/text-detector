@@ -9,6 +9,7 @@ This project is a MERN stack application that detects AI-generated text using th
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
+- [Docker Setup](#docker-setup)
 - [License](#license)
 
 ## Features
@@ -65,7 +66,7 @@ This project is a MERN stack application that detects AI-generated text using th
     ```
 
 3. **Access the application:**
-    Open your browser and navigate to `http://localhost:3000`.
+    Open your browser and navigate to `http://localhost:4000`.
 
 ## API Documentation
 
@@ -84,21 +85,3 @@ The backend API is documented using Swagger. To view the API documentation:
 {
     "text": "This is sample text"
 }
-
-
-
-## Response 
-{
-    "score": 0.9998242085867214,
-    "sentence_scores": [
-        {
-            "score": 0.0006048416698468673,
-            "sentence": "This is sample text"
-        }
-    ],
-    "text": "This is sample text"
-}
-
-
-
-This `README.md` provides a comprehensive overview of your project, including its features, prerequisites, installation steps, usage instructions, API documentation, and project structure. You can customize the repository URL and other specific details as needed.
